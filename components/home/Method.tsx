@@ -1,0 +1,2 @@
+const steps = ["Diagnóstico", "Dados", "Desenvolvimento", "Validação", "Implantação", "Acompanhamento"];
+export function Method() { return <section id="conteudo" className="section-block"><div className="shell"><div className="section-kicker">COMO TRABALHAMOS</div><h2 className="section-title">Do problema ao <span>resultado.</span></h2><div className="method-row">{steps.map((s,i)=><div className="method-step" key={s}><b>{String(i+1).padStart(2,"0")}</b><span>{s}</span></div>)}</div></div></section>; }

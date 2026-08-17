@@ -1,0 +1,2 @@
+COPIAR_PARA_D.bat
+bat_exclude.txt

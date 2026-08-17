@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="110" y1="60" x2="410" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B7CFF"/>
+      <stop offset="0.55" stop-color="#155EEF"/>
+      <stop offset="1" stop-color="#6C3BFF"/>
+    </linearGradient>
+  </defs>
+  <!-- B monogram -->
+  <path d="M180 74H302C365 74 408 108 408 164C408 198 390 224 361 239C397 253 420 283 420 323C420 389 371 430 300 430H180V346H296C322 346 339 334 339 310C339 287 322 276 296 276H180V198H289C313 198 328 187 328 166C328 146 313 136 289 136H180V74Z" fill="url(#g)"/>
+  <!-- rising chart bars -->
+  <rect x="88" y="338" width="34" height="92" rx="7" fill="url(#g)"/>
+  <rect x="132" y="302" width="34" height="128" rx="7" fill="url(#g)"/>
+  <!-- growth arrow -->
+  <path d="M112 344L215 244L264 293L340 217" stroke="white" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M283 211L347 210L347 274" stroke="white" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M112 344L215 244L264 293L340 217" stroke="url(#g)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M283 211L347 210L347 274" stroke="url(#g)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

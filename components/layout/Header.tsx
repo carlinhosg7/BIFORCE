@@ -3,11 +3,11 @@ import { Brand } from "./Brand";
 
 const links = [
   ["INÍCIO", "#inicio"],
-  ["SOBRE", "#sobre"],
+  ["PROBLEMAS", "#sobre"],
   ["SOLUÇÕES", "#solucoes"],
   ["TREINAMENTOS", "#treinamentos"],
-  ["CASES", "#cases"],
-  ["CONTEÚDO", "#conteudo"],
+  ["APLICAÇÕES", "#cases"],
+  ["COMO FUNCIONA", "#conteudo"],
   ["CONTATO", "#contato"],
 ] as const;
 
@@ -17,15 +17,9 @@ export function Header() {
       <div className="shell header-inner">
         <Brand />
         <nav className="main-nav" aria-label="Navegação principal">
-          {links.map(([label, href], index) => (
-            <a key={href} className={index === 0 ? "nav-link active" : "nav-link"} href={href}>
-              {label}
-            </a>
-          ))}
+          {links.map(([label, href], index) => <a key={href} className={index === 0 ? "nav-link active" : "nav-link"} href={href}>{label}</a>)}
         </nav>
-        <a className="contact-pill" href="#contato">
-          FALE CONOSCO <ArrowRight size={18} />
-        </a>
+        <a className="contact-pill" href="#contato">SOLICITAR PROPOSTA <ArrowRight size={18} /></a>
       </div>
     </header>
   );

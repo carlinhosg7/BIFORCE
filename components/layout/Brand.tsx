@@ -1,15 +1,12 @@
-import { ArrowUpRight, BarChart3 } from "lucide-react";
-
 export function Brand() {
   return (
-    <a href="#inicio" className="brand" aria-label="BIForce - início">
-      <span className="brand-mark" aria-hidden="true">
-        <BarChart3 size={29} strokeWidth={2.15} />
-        <ArrowUpRight className="brand-arrow" size={27} strokeWidth={2.6} />
+    <a href="#inicio" className="brand brand-lockup" aria-label="BIFORCE - Dados em decisões">
+      <span className="brand-symbol-wrap">
+        <img src="/logo/biforce-symbol.svg" alt="" />
       </span>
-      <span>
-        <span className="brand-name"><b>BI</b>FORCE</span>
-        <span className="brand-tag">DADOS EM DECISÕES.</span>
+      <span className="brand-copy">
+        <strong><span>BI</span>FORCE</strong>
+        <small>DADOS EM DECISÕES.</small>
       </span>
     </a>
   );
